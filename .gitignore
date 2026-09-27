@@ -1,0 +1,22 @@
+# Private voice references and generated media
+assets/voices/
+ref.wav
+ref.txt
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.mp4
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Runtime artifacts
+__pycache__/
+*.pyc
+.DS_Store
+output/
+outputs/
